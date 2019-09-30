@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    double a,b,c,d,x1,x2;
+    printf("Enter 3 input : ");
+    scanf("%lf %lf %lf",&a,&b,&c);
+    d=sqrt(b*b-4*c*a);
+    printf("Dec : %lf\n",d);
+    x1=(-b+d)/(2*a);
+    x2=(-b-d)/(2*a);
+    printf("X1 : %lf\n",x1);
+    printf("X2 : %lf",x1);
+return 0;
+}
