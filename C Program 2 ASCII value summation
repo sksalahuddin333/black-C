@@ -1,0 +1,17 @@
+// Get two ASCII value summation
+// Examle t t = 116 + 116 = 232
+
+#include<stdio.h>
+int main()
+{
+    char a,b,c,d;
+    int sum;
+    printf("Give ASCII : ");
+    scanf("%c %c",&a,&b);
+    c = a;
+    d = b;
+    printf("Get ASCII Value : %d %d\n",c,d);
+    sum = c + d;
+    printf("Result : %d",sum);
+return 0;
+}
